@@ -13,7 +13,6 @@
     { "id": "medialunas", "label": "Medialunas" },
     { "id": "adrenalina", "label": "Adrenalina" }
   ],
-  "_notas_moods": "Mood 'adrenalina' es nuevo (agregado por Tibidabo, no existía en la lista original). Mood 'gala' fue eliminado por decisión de la usuaria.",
 
   "activities": [
     {
@@ -37,8 +36,7 @@
       "dato_curioso": "Librazos y al fondo un patiecito re chill con café riquísimo. Los baños son divinos y siempre están impecables.",
       "tiene_bano": true,
       "destacado": true,
-      "inchequeado": false,
-      "nota_pendiente": "Doc original preguntaba: '¿las librerías son shopping?' - resuelto como paseo/chill/cafecito/arte, no shopping."
+      "inchequeado": false
     },
     {
       "id": "libreria-la-central",
