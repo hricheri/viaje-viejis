@@ -8,13 +8,12 @@
     { "id": "shopping", "label": "Shopping" },
     { "id": "chill", "label": "Chill" },
     { "id": "vistas", "label": "Vistas" },
-    { "id": "gala", "label": "Gala" },
     { "id": "casa", "label": "Casa" },
     { "id": "cambio_de_look", "label": "Cambio de look" },
     { "id": "medialunas", "label": "Medialunas" },
     { "id": "adrenalina", "label": "Adrenalina" }
   ],
-  "_notas_moods": "Mood 'adrenalina' es nuevo (agregado por Tibidabo, no existía en la lista original). Mood 'gala' sigue sin ninguna actividad asignada - pendiente de definir con la usuaria.",
+  "_notas_moods": "Mood 'adrenalina' es nuevo (agregado por Tibidabo, no existía en la lista original). Mood 'gala' fue eliminado por decisión de la usuaria.",
 
   "activities": [
     {
@@ -59,10 +58,9 @@
       "categoria_especial": ["Joyita secreta"],
       "barrio": "Ciutat Vella - Raval",
       "maps_url": "https://maps.app.goo.gl/vWE6TjWkzr6VTC9Z9",
-      "dato_curioso": "En la entrada se juntan lxs skaters, muy diver pasar y chusmear. Jungla urbana al 100%. Adentro el museo es gratis desde las...",
+      "dato_curioso": "En la entrada se juntan lxs skaters, muy diver pasar y chusmear. Jungla urbana al 100%. Adentro el museo es gratis de jueves a sábado a partir de las 18hs.",
       "tiene_bano": true,
-      "inchequeado": false,
-      "nota_pendiente": "El dato curioso quedó cortado en el doc original (horario gratis incompleto) - completar."
+      "inchequeado": false
     },
     {
       "id": "biblioteca-garcia-marquez",
@@ -139,8 +137,7 @@
       "maps_url": "https://maps.app.goo.gl/ZkqmEBX53oAXZfK36",
       "dato_curioso": "Acá comió medialunas Messi.",
       "tiene_bano": true,
-      "inchequeado": false,
-      "nota_pendiente": "El doc original tenía el barrio con duda ('Clot?') - confirmar."
+      "inchequeado": false
     },
     {
       "id": "byga",
@@ -175,7 +172,7 @@
       "dato_curioso": "Diada Sants: sábado 17 de octubre, de 11:30am a 3pm. Participan los Castellers de Sants, Mataró y Minyons de Terrassa.",
       "tiene_bano": false,
       "inchequeado": false,
-      "nota_pendiente": "Es un evento con fecha fija (17 de octubre) - confirmar año y si sigue vigente para cuando visiten los papás."
+      "evento_fecha": "2026-10-17"
     },
     {
       "id": "mercado-santa-caterina",
@@ -183,11 +180,10 @@
       "moods": ["morfi", "historia", "arte", "paseo"],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
-      "maps_url": null,
+      "maps_url": "https://maps.app.goo.gl/UKmg3TS3oW51v8Ga8",
       "dato_curioso": "Uno de los mercados más antiguos de la ciudad. El techo está decorado con mosaiquitos inspirados en las frutas y verduras de sus puestos. Como La Boquería pero más vecinal.",
       "tiene_bano": true,
-      "inchequeado": false,
-      "nota_pendiente": "Falta el link de Google Maps."
+      "inchequeado": false
     },
     {
       "id": "humana",
@@ -247,15 +243,14 @@
     {
       "id": "patio-casa-ardiaca",
       "nombre": "Patio de la Casa de l'Ardiaca",
-      "moods": [],
+      "moods": ["historia", "paseo"],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/4xfpWTi5xLWJSMm79",
       "maps_url_extra": "https://maps.app.goo.gl/UqS7HtC52CKfqznL6",
       "dato_curioso": "El edificio está construido aprovechando tramos de la antigua muralla romana. A la vuelta está uno de los palacios donde vivían los reyes.",
       "tiene_bano": false,
-      "inchequeado": false,
-      "nota_pendiente": "Sin moods en el doc original - sugerencia: historia + paseo, a confirmar."
+      "inchequeado": false
     },
     {
       "id": "parque-laguito-patos",
