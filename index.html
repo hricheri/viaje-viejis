@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Viaje Viejis</title>
+<meta name="description" content="Elegí tu mood del día y descubrí actividades por Barcelona">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#e8734a">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/vendor/Sortable.min.js" defer></script>
+</head>
+<body>
+
+<header class="app-header">
+  <h1>Viaje Viejis <span class="wave">👋</span></h1>
+</header>
+
+<main id="view-root"></main>
+
+<nav class="tab-bar">
+  <button class="tab-btn active" data-tab="hoy">
+    <span class="tab-icon">🎯</span><span>Hoy</span>
+  </button>
+  <button class="tab-btn" data-tab="todo">
+    <span class="tab-icon">🔖</span><span>To-do</span>
+  </button>
+  <button class="tab-btn" data-tab="dias">
+    <span class="tab-icon">🗓️</span><span>Días</span>
+  </button>
+  <button class="tab-btn" data-tab="eliminadas">
+    <span class="tab-icon">🗑️</span><span>Eliminadas</span>
+  </button>
+</nav>
+
+<!-- Modal: elegir para hoy o planificar -->
+<div class="modal-overlay" id="modal-elegir" hidden>
+  <div class="modal-card">
+    <h3 id="modal-elegir-titulo">¿Cuándo la hacemos?</h3>
+    <button class="btn btn-primary" id="btn-elegir-hoy">Hoy</button>
+    <label class="modal-label" for="input-fecha">O elegí otro día:</label>
+    <input type="date" id="input-fecha">
+    <button class="btn btn-secondary" id="btn-elegir-fecha">Planificar ese día</button>
+    <button class="btn btn-text" id="btn-cerrar-modal">Cancelar</button>
+  </div>
+</div>
+
+<!-- Modal: crear actividad propia -->
+<div class="modal-overlay" id="modal-crear" hidden>
+  <div class="modal-card">
+    <h3>Crear actividad</h3>
+    <label for="input-nombre">Título</label>
+    <input type="text" id="input-nombre" placeholder="Ej: Mirador secreto">
+    <label for="input-foto">Foto (opcional)</label>
+    <input type="file" id="input-foto" accept="image/*">
+    <label for="input-descripcion">Descripción / dato curioso</label>
+    <textarea id="input-descripcion" rows="3" placeholder="Contanos de qué se trata"></textarea>
+    <label>Moods (elegí al menos uno)</label>
+    <div class="mood-check-grid" id="crear-moods"></div>
+    <button class="btn btn-primary" id="btn-guardar-creada">Guardar actividad</button>
+    <button class="btn btn-text" id="btn-cerrar-crear">Cancelar</button>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
