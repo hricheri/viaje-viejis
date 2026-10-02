@@ -107,10 +107,20 @@ function playSplash(onComplete) {
   const ring = $("#splash-emoji-ring");
   const emojis = Object.values(MOOD_EMOJI);
   const n = emojis.length;
-  const radius = Math.min(window.innerWidth, window.innerHeight) * 0.32;
+  const half = Math.ceil(n / 2);
+  // Dos arcos (arriba y abajo del texto) para que ningún emoji caiga
+  // a la altura/los costados del texto central.
+  const radius = window.innerWidth * 0.48;
+  const arcSpan = (120 * Math.PI) / 180; // 120° de arco
+  const topStart = -Math.PI / 2 - arcSpan / 2;
+  const bottomStart = Math.PI / 2 - arcSpan / 2;
 
   emojis.forEach((emoji, i) => {
-    const angle = (i / n) * 2 * Math.PI - Math.PI / 2;
+    const inTop = i < half;
+    const groupIndex = inTop ? i : i - half;
+    const groupSize = inTop ? half : n - half;
+    const start = inTop ? topStart : bottomStart;
+    const angle = groupSize > 1 ? start + (groupIndex / (groupSize - 1)) * arcSpan : start + arcSpan / 2;
     const x = Math.cos(angle) * radius;
     const y = Math.sin(angle) * radius;
     const span = document.createElement("span");
@@ -166,6 +176,11 @@ function render() {
 
 // ---------- Tab: Hoy ----------
 function renderHoy(root) {
+  const intro = document.createElement("h2");
+  intro.className = "mood-intro";
+  intro.innerHTML = `¿En qué mood estás hoy? <span class="mood-intro-emoji">✨</span>`;
+  root.appendChild(intro);
+
   const moodGrid = document.createElement("div");
   moodGrid.className = "mood-grid";
   DATA.moods.forEach((mood) => {
