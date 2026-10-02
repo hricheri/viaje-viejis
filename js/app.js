@@ -241,7 +241,7 @@ function toggleMood(id) {
 function renderTodo(root) {
   const guardadas = allActivities().filter((a) => getState(a.id).estado === "guardada");
   if (guardadas.length === 0) {
-    root.appendChild(emptyState("🔖", "Todavía no guardaste nada para después. Las actividades que guardes desde 'Hoy' van a aparecer acá, agrupadas por barrio."));
+    root.appendChild(emptyState("🔖", "Todavía no guardaste nada para después. Las actividades que guardes desde 'Mood' van a aparecer acá, agrupadas por barrio."));
     return;
   }
   const porBarrio = {};
@@ -265,7 +265,7 @@ function renderTodo(root) {
 function renderDias(root) {
   const elegidas = allActivities().filter((a) => getState(a.id).estado === "elegida");
   if (elegidas.length === 0) {
-    root.appendChild(emptyState("🗓️", "Todavía no elegiste actividades para ningún día. Desde 'Hoy' o 'To-do' tocá '✅ Elegir' para sumarlas a un día."));
+    root.appendChild(emptyState("🗓️", "Todavía no elegiste actividades para ningún día. Desde 'Mood' o 'To-do' tocá '✅ Elegir' para sumarlas a un plan."));
     return;
   }
   const porDia = {};
