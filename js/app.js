@@ -32,6 +32,11 @@ function escapeHtml(str) {
   }[c]));
 }
 
+function moodLabelHtml(mood) {
+  if (mood.id === "cambio_de_look") return "Cambio<br>de look";
+  return escapeHtml(mood.label);
+}
+
 function loadJSON(key, fallback) {
   try {
     const raw = localStorage.getItem(key);
@@ -132,7 +137,7 @@ function playSplash(onComplete) {
     ring.appendChild(span);
   });
 
-  const dismissAt = (0.15 + n * 0.06 + 1.5) * 1000;
+  const dismissAt = (0.15 + n * 0.06 + 3.6) * 1000;
   let dismissed = false;
 
   const dismiss = () => {
@@ -188,7 +193,7 @@ function renderHoy(root) {
     const isSelected = selectedMoods.includes(mood.id);
     btn.className = "mood-chip" + (isSelected ? " selected" : "");
     btn.disabled = !isSelected && selectedMoods.length >= MAX_MOODS;
-    btn.innerHTML = `<span class="emoji">${MOOD_EMOJI[mood.id] || "✨"}</span><span>${escapeHtml(mood.label)}</span>`;
+    btn.innerHTML = `<span class="emoji">${MOOD_EMOJI[mood.id] || "✨"}</span><span>${moodLabelHtml(mood)}</span>`;
     btn.addEventListener("click", () => toggleMood(mood.id));
     moodGrid.appendChild(btn);
   });
@@ -349,7 +354,7 @@ function renderCard(a, context) {
       <button class="icon-btn elegir" data-action="elegir" title="Elegir para el recorrido">✅</button>
     `;
   } else if (context === "eliminadas") {
-    actionsHtml = `<button class="icon-btn guardar" data-action="restaurar" title="Restaurar">↩️ Restaurar</button>`;
+    actionsHtml = `<button class="icon-btn guardar" data-action="restaurar" title="Restaurar">↩️</button>`;
   }
 
   const mapsBtn = a.maps_url ? `<a class="icon-btn" href="${a.maps_url}" target="_blank" rel="noopener" title="Abrir en Maps">🗺️</a>` : "";
@@ -498,7 +503,7 @@ function abrirModalCrear() {
     el.type = "button";
     el.className = "mood-check";
     el.dataset.mood = mood.id;
-    el.textContent = `${MOOD_EMOJI[mood.id] || ""} ${mood.label}`;
+    el.innerHTML = `${MOOD_EMOJI[mood.id] || ""} ${moodLabelHtml(mood)}`;
     el.addEventListener("click", () => el.classList.toggle("selected"));
     grid.appendChild(el);
   });
