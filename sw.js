@@ -1,4 +1,4 @@
-const CACHE_NAME = "viaje-viejis-v2";
+const CACHE_NAME = "viaje-viejis-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,9 +7,9 @@ const APP_SHELL = [
   "./js/app.js",
   "./js/vendor/Sortable.min.js",
   "./data/actividades.json",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
-  "./icons/icon-maskable-512.png"
+  "./icons/icon-192-v2.png",
+  "./icons/icon-512-v2.png",
+  "./icons/icon-maskable-512-v2.png"
 ];
 
 self.addEventListener("install", (event) => {
