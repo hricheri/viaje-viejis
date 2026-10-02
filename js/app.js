@@ -124,6 +124,11 @@ function render() {
 
 // ---------- Tab: Hoy ----------
 function renderHoy(root) {
+  const intro = document.createElement("h2");
+  intro.className = "mood-intro";
+  intro.innerHTML = `¿En qué mood estás hoy? <span class="mood-intro-emoji">✨</span>`;
+  root.appendChild(intro);
+
   const moodGrid = document.createElement("div");
   moodGrid.className = "mood-grid";
   DATA.moods.forEach((mood) => {
@@ -433,6 +438,7 @@ function abrirModalCrear() {
   $("#input-nombre").value = "";
   $("#input-foto").value = "";
   $("#input-descripcion").value = "";
+  $("#input-maps-url").value = "";
   const grid = $("#crear-moods");
   grid.innerHTML = "";
   DATA.moods.forEach((mood) => {
@@ -450,6 +456,7 @@ function abrirModalCrear() {
 function guardarActividadCreada() {
   const nombre = $("#input-nombre").value.trim();
   const descripcion = $("#input-descripcion").value.trim();
+  const mapsUrl = $("#input-maps-url").value.trim();
   const moods = $$("#crear-moods .mood-check.selected").map((el) => el.dataset.mood);
   const fotoInput = $("#input-foto");
 
@@ -464,7 +471,7 @@ function guardarActividadCreada() {
       moods,
       categoria_especial: ["Creada por vos"],
       barrio: "Mis actividades",
-      maps_url: null,
+      maps_url: mapsUrl || null,
       dato_curioso: descripcion,
       tiene_bano: null,
       foto: fotoDataUrl || null

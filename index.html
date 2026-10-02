@@ -6,7 +6,7 @@
 <title>Viaje Viejis</title>
 <meta name="description" content="Elegí tu mood del día y descubrí actividades por Barcelona">
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#e8734a">
+<meta name="theme-color" content="#8a63d2">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -61,6 +61,8 @@
     <input type="file" id="input-foto" accept="image/*">
     <label for="input-descripcion">Descripción / dato curioso</label>
     <textarea id="input-descripcion" rows="3" placeholder="Contanos de qué se trata"></textarea>
+    <label for="input-maps-url">Link de Google Maps (opcional)</label>
+    <input type="url" id="input-maps-url" placeholder="https://maps.app.goo.gl/...">
     <label>Moods (elegí al menos uno)</label>
     <div class="mood-check-grid" id="crear-moods"></div>
     <button class="btn btn-primary" id="btn-guardar-creada">Guardar actividad</button>
