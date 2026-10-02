@@ -261,6 +261,28 @@
       "inchequeado": false
     },
     {
+      "id": "passeig-de-gracia",
+      "nombre": "Passeig de Gràcia",
+      "moods": ["shopping"],
+      "categoria_especial": [],
+      "barrio": "Eixample",
+      "maps_url": "https://maps.app.goo.gl/C5pDYD4rr6dq17GN8",
+      "dato_curioso": "Calle larguísima con todos los locales habidos y por haber. Desde H&M hasta Prada, en el medio hay unos edificios de Gaudí.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "glories",
+      "nombre": "Glòries",
+      "moods": ["shopping"],
+      "categoria_especial": [],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/Cmvj14RAm6PL1dJe7",
+      "dato_curioso": "Shopping (semi al aire libre) con patio de comidas. Hay un Carrefour gigante, cine, etc.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
       "id": "de-la-crem",
       "nombre": "De la Crem",
       "moods": ["morfi", "chill"],
