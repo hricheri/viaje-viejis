@@ -105,6 +105,72 @@
       "inchequeado": false
     },
     {
+      "id": "sin-amor-no",
+      "nombre": "Sin Amor No",
+      "moods": ["cafecito"],
+      "categoria_especial": ["el barrio :)"],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/Y7yMqhXrubEA4nos7",
+      "dato_curioso": "Tal vez los atienda el ex de Ana pero vale la pena, es riquísimo todo.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "monocafe",
+      "nombre": "Monocafe",
+      "moods": ["cafecito"],
+      "categoria_especial": ["el barrio :)"],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/kxKXFt3C559n7zcD8",
+      "dato_curioso": "Buen spot para ir a trabajar con la compu.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "nomad-frutas-selectas",
+      "nombre": "Nomad Frutas Selectas",
+      "moods": ["cafecito"],
+      "categoria_especial": ["el barrio :)", "Inchequeado"],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/AtJWRxi7faJsdN2TA",
+      "dato_curioso": "Lo puso el ex jefe de Marche.",
+      "tiene_bano": null,
+      "inchequeado": true
+    },
+    {
+      "id": "casa-taos",
+      "nombre": "Casa Taos",
+      "moods": ["cafecito"],
+      "categoria_especial": ["el barrio :)"],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/UVuPuYuES5KQ883t5",
+      "dato_curioso": "Cute y fancy.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "pecora",
+      "nombre": "Pecora",
+      "moods": ["cafecito"],
+      "categoria_especial": ["el barrio :)"],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/Xh2SyVSXBW4TYwDY6",
+      "dato_curioso": "Cute y mini, bueno para agarrar un cafecito de paso.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "miners",
+      "nombre": "Miners",
+      "moods": ["cafecito"],
+      "categoria_especial": ["el barrio :)"],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/pEigtN1a4BjzbZ5f9",
+      "dato_curioso": "La croissant con almendras es increíble.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
       "id": "alfar",
       "nombre": "Alfar",
       "moods": ["medialunas", "cafecito"],

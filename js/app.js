@@ -91,11 +91,53 @@ async function init() {
 
   setupTabBar();
   setupModales();
-  setActiveTab(activeTab, { skipSave: true });
+  playSplash(() => {
+    document.body.classList.remove("pre-splash");
+    setActiveTab(activeTab, { skipSave: true });
+  });
 
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
+}
+
+// ---------- Splash de entrada ----------
+function playSplash(onComplete) {
+  const splash = $("#splash-screen");
+  const ring = $("#splash-emoji-ring");
+  const emojis = Object.values(MOOD_EMOJI);
+  const n = emojis.length;
+  const radius = Math.min(window.innerWidth, window.innerHeight) * 0.32;
+
+  emojis.forEach((emoji, i) => {
+    const angle = (i / n) * 2 * Math.PI - Math.PI / 2;
+    const x = Math.cos(angle) * radius;
+    const y = Math.sin(angle) * radius;
+    const span = document.createElement("span");
+    span.className = "splash-emoji";
+    span.textContent = emoji;
+    span.style.left = `calc(50% + ${x}px - 1.15rem)`;
+    span.style.top = `calc(50% + ${y}px - 1.15rem)`;
+    span.style.setProperty("--pop-delay", `${0.15 + i * 0.06}s`);
+    ring.appendChild(span);
+  });
+
+  const dismissAt = (0.15 + n * 0.06 + 1.5) * 1000;
+  let dismissed = false;
+
+  const dismiss = () => {
+    if (dismissed) return;
+    dismissed = true;
+    splash.removeEventListener("click", dismiss);
+    splash.classList.add("hidden");
+    setTimeout(() => {
+      splash.remove();
+      onComplete();
+    }, 500);
+  };
+
+  splash.addEventListener("click", dismiss);
+  setTimeout(dismiss, dismissAt);
 }
 
 // ---------- Tabs ----------
@@ -124,11 +166,6 @@ function render() {
 
 // ---------- Tab: Hoy ----------
 function renderHoy(root) {
-  const intro = document.createElement("h2");
-  intro.className = "mood-intro";
-  intro.innerHTML = `¿En qué mood estás hoy? <span class="mood-intro-emoji">✨</span>`;
-  root.appendChild(intro);
-
   const moodGrid = document.createElement("div");
   moodGrid.className = "mood-grid";
   DATA.moods.forEach((mood) => {
