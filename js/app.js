@@ -322,12 +322,30 @@ function renderEliminadas(root) {
   const descartadas = allActivities().filter((a) => getState(a.id).estado === "descartada");
   if (descartadas.length === 0) {
     root.appendChild(emptyState("🗑️", "No descartaste ninguna actividad todavía."));
-    return;
+  } else {
+    const list = document.createElement("div");
+    list.className = "activity-list";
+    descartadas.forEach((a) => list.appendChild(renderCard(a, "eliminadas")));
+    root.appendChild(list);
   }
-  const list = document.createElement("div");
-  list.className = "activity-list";
-  descartadas.forEach((a) => list.appendChild(renderCard(a, "eliminadas")));
-  root.appendChild(list);
+  root.appendChild(renderResetButton());
+}
+
+function renderResetButton() {
+  const wrap = document.createElement("div");
+  wrap.className = "reset-wrap";
+  const btn = document.createElement("button");
+  btn.className = "reset-btn";
+  btn.textContent = "🔄 Reiniciar toda la app";
+  btn.addEventListener("click", () => {
+    if (confirm("Esto borra todo lo guardado, elegido y descartado (y tus actividades creadas). ¿Seguro?")) {
+      localStorage.removeItem(LS_KEYS.states);
+      localStorage.removeItem(LS_KEYS.custom);
+      location.reload();
+    }
+  });
+  wrap.appendChild(btn);
+  return wrap;
 }
 
 // ---------- Card genérica ----------

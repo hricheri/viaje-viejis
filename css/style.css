@@ -364,6 +364,20 @@ body.pre-splash #view-root {
 
 .empty-state .emoji-lg { font-size: 2.4rem; display: block; margin-bottom: 8px; }
 
+.reset-wrap {
+  text-align: center;
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.reset-btn {
+  background: none;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  padding: 10px;
+}
+
 /* ---- To-do tab (grouped by barrio) ---- */
 .barrio-group { margin-bottom: 22px; }
 .barrio-heading {
