@@ -1,24 +1,64 @@
 {
   "moods": [
-    { "id": "paseo", "label": "Paseo" },
-    { "id": "historia", "label": "Historia" },
-    { "id": "cafecito", "label": "Cafecito" },
-    { "id": "morfi", "label": "Morfi" },
-    { "id": "arte", "label": "Arte" },
-    { "id": "shopping", "label": "Shopping" },
-    { "id": "chill", "label": "Chill" },
-    { "id": "vistas", "label": "Vistas" },
-    { "id": "casa", "label": "Casa" },
-    { "id": "cambio_de_look", "label": "Cambio de look" },
-    { "id": "medialunas", "label": "Medialunas" },
-    { "id": "adrenalina", "label": "Adrenalina" }
+    {
+      "id": "paseo",
+      "label": "Paseo"
+    },
+    {
+      "id": "historia",
+      "label": "Historia"
+    },
+    {
+      "id": "cafecito",
+      "label": "Cafecito"
+    },
+    {
+      "id": "morfi",
+      "label": "Morfi"
+    },
+    {
+      "id": "arte",
+      "label": "Arte"
+    },
+    {
+      "id": "shopping",
+      "label": "Shopping"
+    },
+    {
+      "id": "chill",
+      "label": "Chill"
+    },
+    {
+      "id": "vistas",
+      "label": "Vistas"
+    },
+    {
+      "id": "casa",
+      "label": "Casa"
+    },
+    {
+      "id": "cambio_de_look",
+      "label": "Cambio de look"
+    },
+    {
+      "id": "medialunas",
+      "label": "Medialunas"
+    },
+    {
+      "id": "adrenalina",
+      "label": "Adrenalina"
+    }
   ],
-
   "activities": [
     {
       "id": "libreria-raima",
       "nombre": "Librería Raima",
-      "moods": ["arte", "paseo", "cafecito", "shopping"],
+      "moods": [
+        "arte",
+        "paseo",
+        "cafecito",
+        "shopping"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Gòtic",
       "maps_url": "https://maps.app.goo.gl/oWXonwfWWbTfN2hG9",
@@ -29,8 +69,16 @@
     {
       "id": "libreria-finestres",
       "nombre": "Librería Finestres",
-      "moods": ["cafecito", "chill", "paseo", "arte"],
-      "categoria_especial": ["Librerías"],
+      "moods": [
+        "cafecito",
+        "chill",
+        "paseo",
+        "arte",
+        "shopping"
+      ],
+      "categoria_especial": [
+        "Librerías"
+      ],
       "barrio": "Eixample",
       "maps_url": "https://maps.app.goo.gl/d9HLVxtv5wJLg5Ub7",
       "dato_curioso": "Librazos y al fondo un patiecito re chill con café riquísimo. Los baños son divinos y siempre están impecables.",
@@ -41,8 +89,17 @@
     {
       "id": "libreria-la-central",
       "nombre": "Librería La Central",
-      "moods": ["arte", "cafecito", "chill", "paseo"],
-      "categoria_especial": ["Librerías", "Joyita secreta"],
+      "moods": [
+        "arte",
+        "cafecito",
+        "chill",
+        "paseo",
+        "shopping"
+      ],
+      "categoria_especial": [
+        "Librerías",
+        "Joyita secreta"
+      ],
       "barrio": "Ciutat Vella - Raval",
       "maps_url": "https://maps.app.goo.gl/AX6UxcEzbe3WcXVg9",
       "dato_curioso": "Fav spot de mi ex barrio. Libros y objetos. Era una capilla, ahora podés tomar cafecito al aire libre. A la vuelta se juntan lxs skaters, muy diver pasar y chusmear. Jungla urbana al 100%.",
@@ -52,8 +109,14 @@
     {
       "id": "macba",
       "nombre": "MACBA",
-      "moods": ["arte", "paseo", "chill"],
-      "categoria_especial": ["Joyita secreta"],
+      "moods": [
+        "arte",
+        "paseo",
+        "chill"
+      ],
+      "categoria_especial": [
+        "Joyita secreta"
+      ],
       "barrio": "Ciutat Vella - Raval",
       "maps_url": "https://maps.app.goo.gl/vWE6TjWkzr6VTC9Z9",
       "dato_curioso": "En la entrada se juntan lxs skaters, muy diver pasar y chusmear. Jungla urbana al 100%. Adentro el museo es gratis de jueves a sábado a partir de las 18hs.",
@@ -63,8 +126,14 @@
     {
       "id": "biblioteca-garcia-marquez",
       "nombre": "Biblioteca García Márquez",
-      "moods": ["arte", "chill", "paseo"],
-      "categoria_especial": ["Inchequeado"],
+      "moods": [
+        "arte",
+        "chill",
+        "paseo"
+      ],
+      "categoria_especial": [
+        "Inchequeado"
+      ],
       "barrio": "Clot",
       "maps_url": "https://maps.app.goo.gl/4rxChJzgvaxKp4iU7",
       "dato_curioso": "Biblioteca pública. Estuvo nominada para un premio de arquitectura. Nunca pude ir porque están siempre en huelga últimamente.",
@@ -74,7 +143,11 @@
     {
       "id": "museu-picasso",
       "nombre": "Museu Picasso",
-      "moods": ["arte", "historia", "paseo"],
+      "moods": [
+        "arte",
+        "historia",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/YgpNE2PRh4PTqXNE7",
@@ -85,7 +158,11 @@
     {
       "id": "colegio-arquitectes",
       "nombre": "Col·legi d'Arquitectes de Catalunya",
-      "moods": ["arte", "historia", "paseo"],
+      "moods": [
+        "arte",
+        "historia",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Gòtic",
       "maps_url": "https://maps.app.goo.gl/XZNrU2mqCvJjqyDz5",
@@ -96,7 +173,11 @@
     {
       "id": "cafeteria-coto",
       "nombre": "Cafetería Coto",
-      "moods": ["cafecito", "historia"],
+      "moods": [
+        "cafecito",
+        "historia",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Gòtic",
       "maps_url": "https://maps.app.goo.gl/WYnTgNZdajrcB4Wn6",
@@ -107,8 +188,13 @@
     {
       "id": "sin-amor-no",
       "nombre": "Sin Amor No",
-      "moods": ["cafecito", "chill"],
-      "categoria_especial": ["el barrio :)"],
+      "moods": [
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/Y7yMqhXrubEA4nos7",
       "dato_curioso": "Tal vez los atienda el ex de Ana pero vale la pena, es riquísimo todo.",
@@ -118,8 +204,13 @@
     {
       "id": "monocafe",
       "nombre": "Monocafe",
-      "moods": ["cafecito", "chill"],
-      "categoria_especial": ["el barrio :)"],
+      "moods": [
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/kxKXFt3C559n7zcD8",
       "dato_curioso": "Buen spot para ir a trabajar con la compu.",
@@ -129,8 +220,14 @@
     {
       "id": "nomad-frutas-selectas",
       "nombre": "Nomad Frutas Selectas",
-      "moods": ["cafecito", "chill"],
-      "categoria_especial": ["el barrio :)", "Inchequeado"],
+      "moods": [
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "el barrio :)",
+        "Inchequeado"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/AtJWRxi7faJsdN2TA",
       "dato_curioso": "Lo puso el ex jefe de Marche.",
@@ -140,8 +237,13 @@
     {
       "id": "casa-taos",
       "nombre": "Casa Taos",
-      "moods": ["cafecito", "chill"],
-      "categoria_especial": ["el barrio :)"],
+      "moods": [
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/UVuPuYuES5KQ883t5",
       "dato_curioso": "Cute y fancy.",
@@ -151,8 +253,13 @@
     {
       "id": "pecora",
       "nombre": "Pecora",
-      "moods": ["cafecito", "chill"],
-      "categoria_especial": ["el barrio :)"],
+      "moods": [
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/Xh2SyVSXBW4TYwDY6",
       "dato_curioso": "Cute y mini, bueno para agarrar un cafecito de paso.",
@@ -162,8 +269,13 @@
     {
       "id": "miners",
       "nombre": "Miners",
-      "moods": ["cafecito", "chill"],
-      "categoria_especial": ["el barrio :)"],
+      "moods": [
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/pEigtN1a4BjzbZ5f9",
       "dato_curioso": "La croissant con almendras es increíble.",
@@ -173,8 +285,15 @@
     {
       "id": "alfar",
       "nombre": "Alfar",
-      "moods": ["medialunas", "cafecito", "chill"],
-      "categoria_especial": ["Tour de medialunas", "el barrio :)"],
+      "moods": [
+        "medialunas",
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "Tour de medialunas",
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/8gvqfECuWGJxbArh6",
       "dato_curioso": "Medialunas marplatenses. Ojalá las agarren recién salidas del horno. Dios.",
@@ -184,8 +303,15 @@
     {
       "id": "little-fern",
       "nombre": "Little Fern",
-      "moods": ["medialunas", "cafecito", "chill"],
-      "categoria_especial": ["Tour de medialunas", "el barrio :)"],
+      "moods": [
+        "medialunas",
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "Tour de medialunas",
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/4uA3Su5r1Xs5g1Fy6",
       "dato_curioso": "Podés desayunar haciendo people watching.",
@@ -195,8 +321,14 @@
     {
       "id": "quilmena",
       "nombre": "Quilmeña",
-      "moods": ["medialunas", "cafecito", "chill"],
-      "categoria_especial": ["Tour de medialunas"],
+      "moods": [
+        "medialunas",
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "Tour de medialunas"
+      ],
       "barrio": "Clot",
       "maps_url": "https://maps.app.goo.gl/ZkqmEBX53oAXZfK36",
       "dato_curioso": "Acá comió medialunas Messi.",
@@ -206,8 +338,14 @@
     {
       "id": "byga",
       "nombre": "ByGa",
-      "moods": ["medialunas", "cafecito", "chill"],
-      "categoria_especial": ["Tour de medialunas"],
+      "moods": [
+        "medialunas",
+        "cafecito",
+        "chill"
+      ],
+      "categoria_especial": [
+        "Tour de medialunas"
+      ],
       "barrio": "Arc de Triomf / Barrio Chino",
       "maps_url": "https://maps.app.goo.gl/1i1fhATbYQAv3LgR8",
       "dato_curioso": "Está en el barrio chino y rodeado de tiendas de juegos, anime, cómics. Viví a dos cuadras de acá y fue donde desayuné el día del cumple de Su.",
@@ -218,7 +356,12 @@
     {
       "id": "mnac",
       "nombre": "Museu Nacional d'Art de Catalunya (MNAC)",
-      "moods": ["arte", "historia", "vistas", "paseo"],
+      "moods": [
+        "arte",
+        "historia",
+        "vistas",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Montjuïc",
       "maps_url": "https://maps.app.goo.gl/KTptcWUJMYmHJtUc6",
@@ -229,7 +372,10 @@
     {
       "id": "castellers",
       "nombre": "Castellers",
-      "moods": ["historia", "paseo"],
+      "moods": [
+        "historia",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Sants",
       "maps_url": "https://maps.app.goo.gl/QgFRc2VzuRV9oabv5",
@@ -241,7 +387,12 @@
     {
       "id": "mercado-santa-caterina",
       "nombre": "Mercado Santa Caterina",
-      "moods": ["morfi", "historia", "arte", "paseo"],
+      "moods": [
+        "morfi",
+        "historia",
+        "arte",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/UKmg3TS3oW51v8Ga8",
@@ -252,7 +403,10 @@
     {
       "id": "humana",
       "nombre": "Humana",
-      "moods": ["shopping", "cambio_de_look"],
+      "moods": [
+        "shopping",
+        "cambio_de_look"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Gòtic",
       "maps_url": "https://maps.app.goo.gl/SvCV54gPsy1g8PdV6",
@@ -263,7 +417,10 @@
     {
       "id": "passeig-de-gracia",
       "nombre": "Passeig de Gràcia",
-      "moods": ["shopping", "paseo", "arte"],
+      "moods": [
+        "shopping",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Eixample",
       "maps_url": "https://maps.app.goo.gl/C5pDYD4rr6dq17GN8",
@@ -274,7 +431,12 @@
     {
       "id": "glories",
       "nombre": "Glòries",
-      "moods": ["shopping", "morfi", "chill"],
+      "moods": [
+        "shopping",
+        "morfi",
+        "chill",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/Cmvj14RAm6PL1dJe7",
@@ -285,7 +447,11 @@
     {
       "id": "de-la-crem",
       "nombre": "De la Crem",
-      "moods": ["morfi", "chill"],
+      "moods": [
+        "morfi",
+        "chill",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Eixample",
       "maps_url": "https://maps.app.goo.gl/kYc6VSmsEtg3gCYU8",
@@ -296,7 +462,12 @@
     {
       "id": "palau-musica",
       "nombre": "Palau de la Música Catalana",
-      "moods": ["cafecito", "historia", "arte", "paseo"],
+      "moods": [
+        "cafecito",
+        "historia",
+        "arte",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/8iqMrhCPDAmR61MC9",
@@ -307,7 +478,10 @@
     {
       "id": "acueductos-romanos",
       "nombre": "Acueductos Romanos",
-      "moods": ["historia", "paseo"],
+      "moods": [
+        "historia",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/54NKCkBQ5jNp6Wz96",
@@ -318,8 +492,13 @@
     {
       "id": "tibidabo",
       "nombre": "Parque de diversiones Tibidabo",
-      "moods": ["adrenalina", "vistas"],
-      "categoria_especial": ["Inchequeado"],
+      "moods": [
+        "adrenalina",
+        "vistas"
+      ],
+      "categoria_especial": [
+        "Inchequeado"
+      ],
       "barrio": "Tibidabo",
       "maps_url": "https://maps.app.goo.gl/ys5x22XCs19xhR1CA",
       "dato_curioso": "¡Abrió en 1901!",
@@ -329,7 +508,10 @@
     {
       "id": "patio-casa-ardiaca",
       "nombre": "Patio de la Casa de l'Ardiaca",
-      "moods": ["historia", "paseo", "chill"],
+      "moods": [
+        "historia",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/4xfpWTi5xLWJSMm79",
@@ -341,8 +523,14 @@
     {
       "id": "parque-laguito-patos",
       "nombre": "Parque con Laguito y Patos",
-      "moods": ["paseo", "chill"],
-      "categoria_especial": ["el barrio :)"],
+      "moods": [
+        "paseo",
+        "chill",
+        "vistas"
+      ],
+      "categoria_especial": [
+        "el barrio :)"
+      ],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/nZnLY4sehpFC5Hyh9",
       "dato_curioso": "Versión catalana de la Plaza de Palermo.",
@@ -352,7 +540,11 @@
     {
       "id": "tenir-pelo-rosa",
       "nombre": "Teñirnos el pelo de rosa",
-      "moods": ["casa", "cambio_de_look"],
+      "moods": [
+        "casa",
+        "cambio_de_look",
+        "arte"
+      ],
       "categoria_especial": [],
       "barrio": "At home",
       "maps_url": null,
@@ -363,8 +555,12 @@
     {
       "id": "mesa-plegable",
       "nombre": "Instalar mesa plegable en el estudio",
-      "moods": ["casa"],
-      "categoria_especial": ["¿cambio de look?"],
+      "moods": [
+        "casa"
+      ],
+      "categoria_especial": [
+        "¿cambio de look?"
+      ],
       "barrio": "At home",
       "maps_url": null,
       "dato_curioso": "Estantecito para que lxs clientes apoyen sus cositas :)",
@@ -374,8 +570,12 @@
     {
       "id": "espejo-patio",
       "nombre": "Colgar espejo patio",
-      "moods": ["casa"],
-      "categoria_especial": ["¿cambio de look?"],
+      "moods": [
+        "casa"
+      ],
+      "categoria_especial": [
+        "¿cambio de look?"
+      ],
       "barrio": "At home",
       "maps_url": null,
       "dato_curioso": "La idea es ilusión óptica que agrande el espacio y de paso puedas chusmearte tu tattoo.",
@@ -385,7 +585,9 @@
     {
       "id": "cortina-estudio",
       "nombre": "Sacar la puerta del estudio y cambiar por una cortina",
-      "moods": ["casa"],
+      "moods": [
+        "casa"
+      ],
       "categoria_especial": [],
       "barrio": "At home",
       "maps_url": null,
@@ -396,7 +598,10 @@
     {
       "id": "empanadas",
       "nombre": "Empanadas",
-      "moods": ["morfi"],
+      "moods": [
+        "morfi",
+        "chill"
+      ],
       "categoria_especial": [],
       "barrio": "Eixample",
       "maps_url": "https://maps.app.goo.gl/YZSNiN3Wo5HTvTC7A",
@@ -407,18 +612,24 @@
     {
       "id": "pizza-italiana",
       "nombre": "Pizza italiana",
-      "moods": ["morfi"],
+      "moods": [
+        "morfi",
+        "paseo"
+      ],
       "categoria_especial": [],
       "barrio": "Arc de Triomf / Barrio Chino",
       "maps_url": "https://maps.app.goo.gl/WSx6tUVHtA3HzKXd7",
-      "dato_curioso": "Si habré comido pizza en este lugar... Grosso Napolitano ti amo.",
+      "dato_curioso": "Si habré comido pizza en este lugar... Grosso Napolitano ti amo. Desde ahí se ve el Arco del Triunfo.",
       "tiene_bano": true,
       "inchequeado": false
     },
     {
       "id": "invernadero",
       "nombre": "Invernadero",
-      "moods": ["paseo", "chill"],
+      "moods": [
+        "paseo",
+        "chill"
+      ],
       "categoria_especial": [],
       "barrio": "Arc de Triomf / Barrio Chino",
       "maps_url": "https://maps.app.goo.gl/sZSUNB9mvg7pA7Zz9",
