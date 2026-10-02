@@ -18,7 +18,7 @@
     {
       "id": "libreria-raima",
       "nombre": "Librería Raima",
-      "moods": ["arte", "paseo"],
+      "moods": ["arte", "paseo", "cafecito", "shopping"],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Gòtic",
       "maps_url": "https://maps.app.goo.gl/oWXonwfWWbTfN2hG9",
@@ -29,7 +29,7 @@
     {
       "id": "libreria-finestres",
       "nombre": "Librería Finestres",
-      "moods": ["cafecito", "chill", "paseo"],
+      "moods": ["cafecito", "chill", "paseo", "arte"],
       "categoria_especial": ["Librerías"],
       "barrio": "Eixample",
       "maps_url": "https://maps.app.goo.gl/d9HLVxtv5wJLg5Ub7",
@@ -52,7 +52,7 @@
     {
       "id": "macba",
       "nombre": "MACBA",
-      "moods": ["arte", "paseo"],
+      "moods": ["arte", "paseo", "chill"],
       "categoria_especial": ["Joyita secreta"],
       "barrio": "Ciutat Vella - Raval",
       "maps_url": "https://maps.app.goo.gl/vWE6TjWkzr6VTC9Z9",
@@ -96,7 +96,7 @@
     {
       "id": "cafeteria-coto",
       "nombre": "Cafetería Coto",
-      "moods": ["cafecito"],
+      "moods": ["cafecito", "historia"],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Gòtic",
       "maps_url": "https://maps.app.goo.gl/WYnTgNZdajrcB4Wn6",
@@ -107,7 +107,7 @@
     {
       "id": "sin-amor-no",
       "nombre": "Sin Amor No",
-      "moods": ["cafecito"],
+      "moods": ["cafecito", "chill"],
       "categoria_especial": ["el barrio :)"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/Y7yMqhXrubEA4nos7",
@@ -118,7 +118,7 @@
     {
       "id": "monocafe",
       "nombre": "Monocafe",
-      "moods": ["cafecito"],
+      "moods": ["cafecito", "chill"],
       "categoria_especial": ["el barrio :)"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/kxKXFt3C559n7zcD8",
@@ -129,7 +129,7 @@
     {
       "id": "nomad-frutas-selectas",
       "nombre": "Nomad Frutas Selectas",
-      "moods": ["cafecito"],
+      "moods": ["cafecito", "chill"],
       "categoria_especial": ["el barrio :)", "Inchequeado"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/AtJWRxi7faJsdN2TA",
@@ -140,7 +140,7 @@
     {
       "id": "casa-taos",
       "nombre": "Casa Taos",
-      "moods": ["cafecito"],
+      "moods": ["cafecito", "chill"],
       "categoria_especial": ["el barrio :)"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/UVuPuYuES5KQ883t5",
@@ -151,7 +151,7 @@
     {
       "id": "pecora",
       "nombre": "Pecora",
-      "moods": ["cafecito"],
+      "moods": ["cafecito", "chill"],
       "categoria_especial": ["el barrio :)"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/Xh2SyVSXBW4TYwDY6",
@@ -162,7 +162,7 @@
     {
       "id": "miners",
       "nombre": "Miners",
-      "moods": ["cafecito"],
+      "moods": ["cafecito", "chill"],
       "categoria_especial": ["el barrio :)"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/pEigtN1a4BjzbZ5f9",
@@ -173,7 +173,7 @@
     {
       "id": "alfar",
       "nombre": "Alfar",
-      "moods": ["medialunas", "cafecito"],
+      "moods": ["medialunas", "cafecito", "chill"],
       "categoria_especial": ["Tour de medialunas", "el barrio :)"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/8gvqfECuWGJxbArh6",
@@ -184,7 +184,7 @@
     {
       "id": "little-fern",
       "nombre": "Little Fern",
-      "moods": ["medialunas", "cafecito"],
+      "moods": ["medialunas", "cafecito", "chill"],
       "categoria_especial": ["Tour de medialunas", "el barrio :)"],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/4uA3Su5r1Xs5g1Fy6",
@@ -195,7 +195,7 @@
     {
       "id": "quilmena",
       "nombre": "Quilmeña",
-      "moods": ["medialunas", "cafecito"],
+      "moods": ["medialunas", "cafecito", "chill"],
       "categoria_especial": ["Tour de medialunas"],
       "barrio": "Clot",
       "maps_url": "https://maps.app.goo.gl/ZkqmEBX53oAXZfK36",
@@ -206,7 +206,7 @@
     {
       "id": "byga",
       "nombre": "ByGa",
-      "moods": ["medialunas", "cafecito"],
+      "moods": ["medialunas", "cafecito", "chill"],
       "categoria_especial": ["Tour de medialunas"],
       "barrio": "Arc de Triomf / Barrio Chino",
       "maps_url": "https://maps.app.goo.gl/1i1fhATbYQAv3LgR8",
@@ -218,7 +218,7 @@
     {
       "id": "mnac",
       "nombre": "Museu Nacional d'Art de Catalunya (MNAC)",
-      "moods": ["arte", "historia", "vistas"],
+      "moods": ["arte", "historia", "vistas", "paseo"],
       "categoria_especial": [],
       "barrio": "Montjuïc",
       "maps_url": "https://maps.app.goo.gl/KTptcWUJMYmHJtUc6",
@@ -263,7 +263,7 @@
     {
       "id": "passeig-de-gracia",
       "nombre": "Passeig de Gràcia",
-      "moods": ["shopping"],
+      "moods": ["shopping", "paseo", "arte"],
       "categoria_especial": [],
       "barrio": "Eixample",
       "maps_url": "https://maps.app.goo.gl/C5pDYD4rr6dq17GN8",
@@ -274,7 +274,7 @@
     {
       "id": "glories",
       "nombre": "Glòries",
-      "moods": ["shopping"],
+      "moods": ["shopping", "morfi", "chill"],
       "categoria_especial": [],
       "barrio": "Poblenou",
       "maps_url": "https://maps.app.goo.gl/Cmvj14RAm6PL1dJe7",
@@ -296,7 +296,7 @@
     {
       "id": "palau-musica",
       "nombre": "Palau de la Música Catalana",
-      "moods": ["cafecito", "historia", "arte"],
+      "moods": ["cafecito", "historia", "arte", "paseo"],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/8iqMrhCPDAmR61MC9",
@@ -318,7 +318,7 @@
     {
       "id": "tibidabo",
       "nombre": "Parque de diversiones Tibidabo",
-      "moods": ["adrenalina"],
+      "moods": ["adrenalina", "vistas"],
       "categoria_especial": ["Inchequeado"],
       "barrio": "Tibidabo",
       "maps_url": "https://maps.app.goo.gl/ys5x22XCs19xhR1CA",
@@ -329,7 +329,7 @@
     {
       "id": "patio-casa-ardiaca",
       "nombre": "Patio de la Casa de l'Ardiaca",
-      "moods": ["historia", "paseo"],
+      "moods": ["historia", "paseo", "chill"],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
       "maps_url": "https://maps.app.goo.gl/4xfpWTi5xLWJSMm79",
@@ -418,7 +418,7 @@
     {
       "id": "invernadero",
       "nombre": "Invernadero",
-      "moods": ["paseo"],
+      "moods": ["paseo", "chill"],
       "categoria_especial": [],
       "barrio": "Arc de Triomf / Barrio Chino",
       "maps_url": "https://maps.app.goo.gl/sZSUNB9mvg7pA7Zz9",

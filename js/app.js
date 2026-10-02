@@ -210,18 +210,20 @@ function renderHoy(root) {
 
   const feed = allActivities()
     .filter((a) => getState(a.id).estado === "nueva")
-    .map((a) => ({ a, score: a.moods.filter((m) => selectedMoods.includes(m)).length }))
-    .filter((x) => x.score > 0)
-    .sort((x, y) => y.score - x.score || x.a.nombre.localeCompare(y.a.nombre));
+    .filter((a) => selectedMoods.every((m) => a.moods.includes(m)))
+    .sort((a, b) => a.nombre.localeCompare(b.nombre));
 
   if (feed.length === 0) {
-    root.appendChild(emptyState("🌱", "No quedan actividades nuevas con ese mood. Probá otra combinación o mirá tus guardadas en To-do."));
+    const msg = selectedMoods.length > 1
+      ? "No hay actividades con todos esos moods a la vez. Probá sacar uno o elegir otra combinación."
+      : "No quedan actividades nuevas con ese mood. Mirá tus guardadas en To-do.";
+    root.appendChild(emptyState("🌱", msg));
     return;
   }
 
   const list = document.createElement("div");
   list.className = "activity-list";
-  feed.forEach(({ a }) => list.appendChild(renderCard(a, "hoy")));
+  feed.forEach((a) => list.appendChild(renderCard(a, "hoy")));
   root.appendChild(list);
 }
 
