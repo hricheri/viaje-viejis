@@ -67,7 +67,8 @@
       "inchequeado": false,
       "oculto_si_solo": [
         "arte",
-        "shopping"
+        "shopping",
+        "paseo"
       ]
     },
     {
@@ -90,7 +91,8 @@
       "inchequeado": false,
       "oculto_si_solo": [
         "paseo",
-        "shopping"
+        "shopping",
+        "chill"
       ]
     },
     {
@@ -113,7 +115,8 @@
       "inchequeado": false,
       "oculto_si_solo": [
         "arte",
-        "shopping"
+        "shopping",
+        "paseo"
       ]
     },
     {
@@ -130,7 +133,10 @@
       "maps_url": "https://maps.app.goo.gl/vWE6TjWkzr6VTC9Z9",
       "dato_curioso": "En la entrada se juntan lxs skaters, muy diver pasar y chusmear. Jungla urbana al 100%. Adentro el museo es gratis de jueves a sábado a partir de las 18hs.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "biblioteca-garcia-marquez",
@@ -147,7 +153,11 @@
       "maps_url": "https://maps.app.goo.gl/4rxChJzgvaxKp4iU7",
       "dato_curioso": "Biblioteca pública. Estuvo nominada para un premio de arquitectura. Nunca pude ir porque están siempre en huelga últimamente.",
       "tiene_bano": true,
-      "inchequeado": true
+      "inchequeado": true,
+      "oculto_si_solo": [
+        "paseo",
+        "chill"
+      ]
     },
     {
       "id": "museu-picasso",
@@ -162,7 +172,10 @@
       "maps_url": "https://maps.app.goo.gl/YgpNE2PRh4PTqXNE7",
       "dato_curioso": "3500 obras del pintor malagueño Pablo Picasso en los múltiples medios que abordó, la más completa del mundo en obras de su juventud.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "colegio-arquitectes",
@@ -177,7 +190,10 @@
       "maps_url": "https://maps.app.goo.gl/XZNrU2mqCvJjqyDz5",
       "dato_curioso": "La fachada es un dibujo esgrafiado de Picasso (por un noruego). Está enfrente de la Catedral de Barcelona.",
       "tiene_bano": false,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "cafeteria-coto",
@@ -192,7 +208,10 @@
       "maps_url": "https://maps.app.goo.gl/WYnTgNZdajrcB4Wn6",
       "dato_curioso": "Café, cerámica y cositas. Compras el café ahí y lo tomás sentadx en la muralla romana.",
       "tiene_bano": false,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "sin-amor-no",
@@ -379,7 +398,10 @@
       "maps_url": "https://maps.app.goo.gl/KTptcWUJMYmHJtUc6",
       "dato_curioso": "Gratis los sábados desde las 3pm. Vista de la ciudad.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "castellers",
@@ -410,7 +432,10 @@
       "maps_url": "https://maps.app.goo.gl/UKmg3TS3oW51v8Ga8",
       "dato_curioso": "Uno de los mercados más antiguos de la ciudad. El techo está decorado con mosaiquitos inspirados en las frutas y verduras de sus puestos. Como La Boquería pero más vecinal.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "humana",
@@ -453,7 +478,11 @@
       "maps_url": "https://maps.app.goo.gl/Cmvj14RAm6PL1dJe7",
       "dato_curioso": "Shopping (semi al aire libre) con patio de comidas. Hay un Carrefour gigante, cine, etc.",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo",
+        "chill"
+      ]
     },
     {
       "id": "de-la-crem",
@@ -467,7 +496,10 @@
       "maps_url": "https://maps.app.goo.gl/kYc6VSmsEtg3gCYU8",
       "dato_curioso": "Acá se tomó un helado Dua Lipa una vez que estuvo en BCN grabando un videoclip. Este también fue el primer barrio donde viví en Barcelona :)",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "palau-musica",
@@ -483,7 +515,10 @@
       "maps_url": "https://maps.app.goo.gl/8iqMrhCPDAmR61MC9",
       "dato_curioso": "Auditorio de música con arquitectura de modernismo catalán. Es increíble desde afuera y podés entrar y tomarte un café.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "acueductos-romanos",
@@ -617,7 +652,10 @@
       "maps_url": "https://maps.app.goo.gl/YZSNiN3Wo5HTvTC7A",
       "dato_curioso": null,
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "pizza-italiana",
@@ -631,7 +669,10 @@
       "maps_url": "https://maps.app.goo.gl/WSx6tUVHtA3HzKXd7",
       "dato_curioso": "Si habré comido pizza en este lugar... Grosso Napolitano ti amo. Desde ahí se ve el Arco del Triunfo.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "invernadero",
@@ -659,7 +700,10 @@
       "maps_url": "https://maps.app.goo.gl/EN9kTVdyFstCs12D7",
       "dato_curioso": "Tienen una especie de budincito que se llama Canelé que por la pinta no das ni 2 pesos pero es RIQUÍSIMO.",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "casa-piera",
@@ -677,7 +721,8 @@
       "inchequeado": false,
       "oculto_si_solo": [
         "arte",
-        "shopping"
+        "shopping",
+        "paseo"
       ]
     },
     {
@@ -723,7 +768,10 @@
       "maps_url": "https://maps.app.goo.gl/opdrHrFn1pN1r9Ep7",
       "dato_curioso": "Podés elegir un vinilo de la colección y ponerlo mientras tomás tu cafecito. Top.",
       "tiene_bano": null,
-      "inchequeado": true
+      "inchequeado": true,
+      "oculto_si_solo": [
+        "paseo"
+      ]
     },
     {
       "id": "chandal",
@@ -741,7 +789,8 @@
       "inchequeado": false,
       "oculto_si_solo": [
         "arte",
-        "shopping"
+        "shopping",
+        "paseo"
       ]
     },
     {
