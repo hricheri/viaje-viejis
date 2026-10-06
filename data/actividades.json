@@ -42,7 +42,7 @@
     },
     {
       "id": "medialunas",
-      "label": "Medialunas"
+      "label": "Tour de medialunas"
     },
     {
       "id": "adrenalina",
@@ -64,7 +64,11 @@
       "maps_url": "https://maps.app.goo.gl/oWXonwfWWbTfN2hG9",
       "dato_curioso": "Es la papelería más grande de TODA Europa. Tiene varios pisos y un barcito en la terraza. Cuidado, acá te dan ganas de gastar toda tu plata.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "requiere_combo": [
+        "arte",
+        "shopping"
+      ]
     },
     {
       "id": "libreria-finestres",
@@ -73,8 +77,8 @@
         "cafecito",
         "chill",
         "paseo",
-        "arte",
-        "shopping"
+        "shopping",
+        "arte"
       ],
       "categoria_especial": [
         "Librerías"
@@ -84,7 +88,11 @@
       "dato_curioso": "Librazos y al fondo un patiecito re chill con café riquísimo. Los baños son divinos y siempre están impecables.",
       "tiene_bano": true,
       "destacado": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "requiere_combo": [
+        "arte",
+        "shopping"
+      ]
     },
     {
       "id": "libreria-la-central",
@@ -92,7 +100,6 @@
       "moods": [
         "arte",
         "cafecito",
-        "chill",
         "paseo",
         "shopping"
       ],
@@ -104,15 +111,18 @@
       "maps_url": "https://maps.app.goo.gl/AX6UxcEzbe3WcXVg9",
       "dato_curioso": "Fav spot de mi ex barrio. Libros y objetos. Era una capilla, ahora podés tomar cafecito al aire libre. A la vuelta se juntan lxs skaters, muy diver pasar y chusmear. Jungla urbana al 100%.",
       "tiene_bano": true,
-      "inchequeado": false
+      "inchequeado": false,
+      "requiere_combo": [
+        "arte",
+        "shopping"
+      ]
     },
     {
       "id": "macba",
       "nombre": "MACBA",
       "moods": [
         "arte",
-        "paseo",
-        "chill"
+        "paseo"
       ],
       "categoria_especial": [
         "Joyita secreta"
@@ -199,7 +209,10 @@
       "maps_url": "https://maps.app.goo.gl/Y7yMqhXrubEA4nos7",
       "dato_curioso": "Tal vez los atienda el ex de Ana pero vale la pena, es riquísimo todo.",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "chill"
+      ]
     },
     {
       "id": "monocafe",
@@ -215,7 +228,10 @@
       "maps_url": "https://maps.app.goo.gl/kxKXFt3C559n7zcD8",
       "dato_curioso": "Buen spot para ir a trabajar con la compu.",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "chill"
+      ]
     },
     {
       "id": "nomad-frutas-selectas",
@@ -232,7 +248,10 @@
       "maps_url": "https://maps.app.goo.gl/AtJWRxi7faJsdN2TA",
       "dato_curioso": "Lo puso el ex jefe de Marche.",
       "tiene_bano": null,
-      "inchequeado": true
+      "inchequeado": true,
+      "oculto_si_solo": [
+        "chill"
+      ]
     },
     {
       "id": "casa-taos",
@@ -248,7 +267,10 @@
       "maps_url": "https://maps.app.goo.gl/UVuPuYuES5KQ883t5",
       "dato_curioso": "Cute y fancy.",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "chill"
+      ]
     },
     {
       "id": "pecora",
@@ -264,7 +286,10 @@
       "maps_url": "https://maps.app.goo.gl/Xh2SyVSXBW4TYwDY6",
       "dato_curioso": "Cute y mini, bueno para agarrar un cafecito de paso.",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "chill"
+      ]
     },
     {
       "id": "miners",
@@ -280,18 +305,18 @@
       "maps_url": "https://maps.app.goo.gl/pEigtN1a4BjzbZ5f9",
       "dato_curioso": "La croissant con almendras es increíble.",
       "tiene_bano": null,
-      "inchequeado": false
+      "inchequeado": false,
+      "oculto_si_solo": [
+        "chill"
+      ]
     },
     {
       "id": "alfar",
       "nombre": "Alfar",
       "moods": [
-        "medialunas",
-        "cafecito",
-        "chill"
+        "medialunas"
       ],
       "categoria_especial": [
-        "Tour de medialunas",
         "el barrio :)"
       ],
       "barrio": "Poblenou",
@@ -304,12 +329,9 @@
       "id": "little-fern",
       "nombre": "Little Fern",
       "moods": [
-        "medialunas",
-        "cafecito",
-        "chill"
+        "medialunas"
       ],
       "categoria_especial": [
-        "Tour de medialunas",
         "el barrio :)"
       ],
       "barrio": "Poblenou",
@@ -322,13 +344,9 @@
       "id": "quilmena",
       "nombre": "Quilmeña",
       "moods": [
-        "medialunas",
-        "cafecito",
-        "chill"
+        "medialunas"
       ],
-      "categoria_especial": [
-        "Tour de medialunas"
-      ],
+      "categoria_especial": [],
       "barrio": "Clot",
       "maps_url": "https://maps.app.goo.gl/ZkqmEBX53oAXZfK36",
       "dato_curioso": "Acá comió medialunas Messi.",
@@ -339,13 +357,9 @@
       "id": "byga",
       "nombre": "ByGa",
       "moods": [
-        "medialunas",
-        "cafecito",
-        "chill"
+        "medialunas"
       ],
-      "categoria_especial": [
-        "Tour de medialunas"
-      ],
+      "categoria_especial": [],
       "barrio": "Arc de Triomf / Barrio Chino",
       "maps_url": "https://maps.app.goo.gl/1i1fhATbYQAv3LgR8",
       "dato_curioso": "Está en el barrio chino y rodeado de tiendas de juegos, anime, cómics. Viví a dos cuadras de acá y fue donde desayuné el día del cumple de Su.",
@@ -359,7 +373,6 @@
       "moods": [
         "arte",
         "historia",
-        "vistas",
         "paseo"
       ],
       "categoria_especial": [],
@@ -433,7 +446,6 @@
       "nombre": "Glòries",
       "moods": [
         "shopping",
-        "morfi",
         "chill",
         "paseo"
       ],
@@ -449,7 +461,6 @@
       "nombre": "De la Crem",
       "moods": [
         "morfi",
-        "chill",
         "paseo"
       ],
       "categoria_especial": [],
@@ -463,10 +474,10 @@
       "id": "palau-musica",
       "nombre": "Palau de la Música Catalana",
       "moods": [
-        "cafecito",
         "historia",
         "arte",
-        "paseo"
+        "paseo",
+        "cafecito"
       ],
       "categoria_especial": [],
       "barrio": "Ciutat Vella - Born",
@@ -600,7 +611,7 @@
       "nombre": "Empanadas",
       "moods": [
         "morfi",
-        "chill"
+        "paseo"
       ],
       "categoria_especial": [],
       "barrio": "Eixample",
@@ -635,6 +646,153 @@
       "maps_url": "https://maps.app.goo.gl/sZSUNB9mvg7pA7Zz9",
       "dato_curioso": "Está dentro del Parque de la Ciutadella. La estrella: el señor que tira burbujas.",
       "tiene_bano": false,
+      "inchequeado": false
+    },
+    {
+      "id": "lot-roasters",
+      "nombre": "Lot Roasters",
+      "moods": [
+        "cafecito",
+        "paseo"
+      ],
+      "categoria_especial": [],
+      "barrio": "Arc de Triomf / Barrio Chino",
+      "maps_url": "https://maps.app.goo.gl/EN9kTVdyFstCs12D7",
+      "dato_curioso": "Tienen una especie de budincito que se llama Canelé que por la pinta no das ni 2 pesos pero es RIQUÍSIMO.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "casa-piera",
+      "nombre": "Casa Piera",
+      "moods": [
+        "arte",
+        "shopping",
+        "paseo"
+      ],
+      "categoria_especial": [],
+      "barrio": "Ciutat Vella - Raval",
+      "maps_url": "https://maps.app.goo.gl/LAuoa86XguaxLmXx7",
+      "dato_curioso": "Venden cositas de arte, marcadores, cuadernos, papeles, y todo lo que se te ocurra.",
+      "tiene_bano": null,
+      "inchequeado": false,
+      "requiere_combo": [
+        "arte",
+        "shopping"
+      ]
+    },
+    {
+      "id": "alterna-mostrador",
+      "nombre": "Alterna Mostrador",
+      "moods": [
+        "medialunas"
+      ],
+      "categoria_especial": [],
+      "barrio": "Gràcia",
+      "maps_url": "https://maps.app.goo.gl/hWxoQ1iv5CQJKnQv8",
+      "dato_curioso": "Si la probás no te das cuenta pero son medialunas veganas!! Riquísimas y hechas por una lesbiana, así que bancamos.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "sopa",
+      "nombre": "Sopa",
+      "moods": [
+        "morfi",
+        "cafecito"
+      ],
+      "categoria_especial": [
+        "el barrio :)"
+      ],
+      "barrio": "Poblenou",
+      "maps_url": "https://maps.app.goo.gl/ojT7fzV4WM2aY3zB6",
+      "dato_curioso": "Comidita casera del barrio y re lindo el local para comer ahí.",
+      "tiene_bano": null,
+      "inchequeado": false
+    },
+    {
+      "id": "sip-roasters",
+      "nombre": "Sip Roasters",
+      "moods": [
+        "cafecito",
+        "paseo"
+      ],
+      "categoria_especial": [
+        "Inchequeado"
+      ],
+      "barrio": "Ciutat Vella - Raval",
+      "maps_url": "https://maps.app.goo.gl/opdrHrFn1pN1r9Ep7",
+      "dato_curioso": "Podés elegir un vinilo de la colección y ponerlo mientras tomás tu cafecito. Top.",
+      "tiene_bano": null,
+      "inchequeado": true
+    },
+    {
+      "id": "chandal",
+      "nombre": "Chandal",
+      "moods": [
+        "shopping",
+        "paseo",
+        "arte"
+      ],
+      "categoria_especial": [],
+      "barrio": "Ciutat Vella - Born",
+      "maps_url": "https://maps.app.goo.gl/xzdgwPB7vD4BhPuJ9",
+      "dato_curioso": "Objetos y libros de diseño, cositas para la casa, de todo un poco. Muy divertido para chusmear.",
+      "tiene_bano": null,
+      "inchequeado": false,
+      "requiere_combo": [
+        "arte",
+        "shopping"
+      ]
+    },
+    {
+      "id": "el-tren-roig",
+      "nombre": "El Tren Roig",
+      "moods": [
+        "paseo",
+        "arte",
+        "historia",
+        "shopping"
+      ],
+      "categoria_especial": [],
+      "barrio": "Nou Barris",
+      "maps_url": "https://maps.app.goo.gl/2gEYntbXXtk9ViVn9",
+      "dato_curioso": "Trenes y maquetitas.",
+      "tiene_bano": null,
+      "inchequeado": false,
+      "requiere_combo": [
+        "arte",
+        "shopping"
+      ]
+    },
+    {
+      "id": "bold",
+      "nombre": "Bold",
+      "moods": [
+        "morfi"
+      ],
+      "categoria_especial": [
+        "Inchequeado"
+      ],
+      "barrio": "Clot",
+      "maps_url": "https://maps.app.goo.gl/Xi9BxTLdEspwivfi8",
+      "dato_curioso": "Hamburguesas! Mi estudio quedaba a unas cuadras y siempre lo fiché pero al final nunca fui.",
+      "tiene_bano": null,
+      "inchequeado": true
+    },
+    {
+      "id": "gran-clariana",
+      "nombre": "Gran Clariana",
+      "moods": [
+        "vistas",
+        "chill",
+        "paseo"
+      ],
+      "categoria_especial": [],
+      "barrio": "Clot",
+      "maps_url": "https://maps.app.goo.gl/dXHMjmoZU4KuvkbTA",
+      "dato_curioso": "Placita para chillear, con vistas a la famosa Torre Glòries (Torre Agbar).",
+      "tiene_bano": null,
       "inchequeado": false
     }
   ]
