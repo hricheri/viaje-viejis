@@ -721,7 +721,6 @@
       "tiene_bano": null,
       "inchequeado": false,
       "oculto_si_solo": [
-        "arte",
         "shopping",
         "paseo"
       ]
