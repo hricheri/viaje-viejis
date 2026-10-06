@@ -77,8 +77,7 @@
         "cafecito",
         "chill",
         "paseo",
-        "shopping",
-        "arte"
+        "shopping"
       ],
       "categoria_especial": [
         "Librerías"
@@ -90,7 +89,7 @@
       "destacado": true,
       "inchequeado": false,
       "requiere_combo": [
-        "arte",
+        "paseo",
         "shopping"
       ]
     },
@@ -750,7 +749,6 @@
       "nombre": "El Tren Roig",
       "moods": [
         "paseo",
-        "arte",
         "historia",
         "shopping"
       ],
@@ -761,7 +759,7 @@
       "tiene_bano": null,
       "inchequeado": false,
       "requiere_combo": [
-        "arte",
+        "paseo",
         "shopping"
       ]
     },
