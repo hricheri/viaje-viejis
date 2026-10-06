@@ -210,7 +210,8 @@
       "tiene_bano": false,
       "inchequeado": false,
       "oculto_si_solo": [
-        "paseo"
+        "paseo",
+        "historia"
       ]
     },
     {
