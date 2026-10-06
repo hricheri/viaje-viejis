@@ -65,7 +65,7 @@
       "dato_curioso": "Es la papelería más grande de TODA Europa. Tiene varios pisos y un barcito en la terraza. Cuidado, acá te dan ganas de gastar toda tu plata.",
       "tiene_bano": true,
       "inchequeado": false,
-      "requiere_combo": [
+      "oculto_si_solo": [
         "arte",
         "shopping"
       ]
@@ -88,7 +88,7 @@
       "tiene_bano": true,
       "destacado": true,
       "inchequeado": false,
-      "requiere_combo": [
+      "oculto_si_solo": [
         "paseo",
         "shopping"
       ]
@@ -111,7 +111,7 @@
       "dato_curioso": "Fav spot de mi ex barrio. Libros y objetos. Era una capilla, ahora podés tomar cafecito al aire libre. A la vuelta se juntan lxs skaters, muy diver pasar y chusmear. Jungla urbana al 100%.",
       "tiene_bano": true,
       "inchequeado": false,
-      "requiere_combo": [
+      "oculto_si_solo": [
         "arte",
         "shopping"
       ]
@@ -675,7 +675,7 @@
       "dato_curioso": "Venden cositas de arte, marcadores, cuadernos, papeles, y todo lo que se te ocurra.",
       "tiene_bano": null,
       "inchequeado": false,
-      "requiere_combo": [
+      "oculto_si_solo": [
         "arte",
         "shopping"
       ]
@@ -739,7 +739,7 @@
       "dato_curioso": "Objetos y libros de diseño, cositas para la casa, de todo un poco. Muy divertido para chusmear.",
       "tiene_bano": null,
       "inchequeado": false,
-      "requiere_combo": [
+      "oculto_si_solo": [
         "arte",
         "shopping"
       ]
@@ -758,7 +758,7 @@
       "dato_curioso": "Trenes y maquetitas.",
       "tiene_bano": null,
       "inchequeado": false,
-      "requiere_combo": [
+      "oculto_si_solo": [
         "paseo",
         "shopping"
       ]

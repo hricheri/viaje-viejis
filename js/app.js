@@ -212,7 +212,6 @@ function renderHoy(root) {
   const feed = allActivities()
     .filter((a) => getState(a.id).estado === "nueva")
     .filter((a) => selectedMoods.every((m) => a.moods.includes(m)))
-    .filter((a) => !a.requiere_combo || a.requiere_combo.every((m) => selectedMoods.includes(m)))
     .filter((a) => !(selectedMoods.length === 1 && a.oculto_si_solo?.includes(selectedMoods[0])))
     .sort((a, b) => a.nombre.localeCompare(b.nombre));
 
