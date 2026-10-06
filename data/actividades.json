@@ -800,7 +800,8 @@
       "moods": [
         "paseo",
         "historia",
-        "shopping"
+        "shopping",
+        "arte"
       ],
       "categoria_especial": [],
       "barrio": "Nou Barris",
@@ -810,7 +811,8 @@
       "inchequeado": false,
       "oculto_si_solo": [
         "paseo",
-        "shopping"
+        "shopping",
+        "historia"
       ]
     },
     {
